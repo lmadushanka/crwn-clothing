@@ -2,8 +2,10 @@ body {
   margin: 0;
   font-family: 'Open Sans',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background: var(--bg);
+  transition: all 3ms ease;
+  color: var(--black);
+  scroll-behavior: smooth;
 }
 
 code {
